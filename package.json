@@ -40,7 +40,8 @@
     "e2e:ui": "playwright test --ui",
     "e2e:report": "playwright show-report",
     "changeset": "commit-and-tag-version --dry-run -s",
-    "release": "commit-and-tag-version -s"
+    "release": "commit-and-tag-version -s",
+    "cloudinary:breakpoints": "node scripts/cloudinary-breakpoints.mjs"
   },
   "dependencies": {
     "@bprogress/next": "^3.2.12",
@@ -95,7 +96,9 @@
     "@vitejs/plugin-react": "^6.0.3",
     "@vitest/coverage-v8": "4.1.10",
     "babel-plugin-react-compiler": "^1.0.0",
+    "cloudinary": "^2.11.0",
     "commit-and-tag-version": "^13.0.0",
+    "dotenv": "^18.0.10",
     "eslint": "^10.7.0",
     "gray-matter": "^4.0.3",
     "jsdom": "^29.1.1",

@@ -6,6 +6,7 @@ import dynamic from 'next/dynamic'
 import { MDXAdmonition } from '@/components/mdx-admonition'
 import { MDXCode } from '@/components/mdx-code'
 import { MDXImage } from '@/components/mdx-image'
+import { Picture } from '@/components/picture'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
@@ -23,6 +24,7 @@ const mdxComponents = {
   pre: MDXCode,
   Button,
   Editor: MDXEditor,
+  Picture,
 }
 
 export function PostContent({ source }: PostContentProps) {
