@@ -105,6 +105,9 @@ importers:
       '@dg-scripts/stylelint-config':
         specifier: ^6.2.0
         version: 6.2.0(postcss@8.5.20)(stylelint-order@8.1.1(stylelint@17.14.1(supports-color@10.2.2)(typescript@6.0.3)))(stylelint@17.14.1(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)
+      '@netlify/plugin-nextjs':
+        specifier: ^5.0.0
+        version: 5.16.8
       '@next/eslint-plugin-next':
         specifier: ^16.2.10
         version: 16.2.10
@@ -951,6 +954,10 @@ packages:
     peerDependencies:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
+
+  '@netlify/plugin-nextjs@5.16.8':
+    resolution: {integrity: sha512-9Mi0L7xoi2oFQ5ft0IyOFvLnPyEApgTmUDrA4Ysx65uvBr2idMPIPKfW5kZo6Jb86pMWyA0Q1I4SrO9ZHnCrHg==}
+    engines: {node: '>=18.0.0'}
 
   '@next/env@16.2.10':
     resolution: {integrity: sha512-zLPxg9M0MEHmygpj5OuxjQ+vHMiy/K7cSp74G8ecYolmgUWw0RwN02tF56npup/+qaI8JB97hQgS/r2Hb6QwVA==}
@@ -6006,6 +6013,8 @@ snapshots:
       '@emnapi/runtime': 1.10.0
       '@tybys/wasm-util': 0.10.2
     optional: true
+
+  '@netlify/plugin-nextjs@5.16.8': {}
 
   '@next/env@16.2.10': {}
 
