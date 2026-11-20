@@ -1,4 +1,28 @@
 {
+  "assets/images/aleksandra-sapozhnikova-YmO-jNZwmac-unsplash": {
+    "width": 3331,
+    "height": 4996,
+    "breakpoints": [
+      200,
+      419,
+      585,
+      717,
+      848,
+      941,
+      1078,
+      1183,
+      1279,
+      1280,
+      1379,
+      1701,
+      1733,
+      1790,
+      1887,
+      1914,
+      1919,
+      1920
+    ]
+  },
   "assets/images/cloudinary-workflow-test": {
     "width": 6000,
     "height": 3376,
